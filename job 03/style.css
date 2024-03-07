@@ -1,0 +1,25 @@
+section{
+    background-color: aqua;
+    height: 100px;
+    width: 200px
+}
+
+@media screen and (min-width:1600px) {
+    body{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    justify-content: space-evenly;}
+
+}
+    
+@media screen and (min-width: 768px) and ( max-width : 1599px) { 
+    section{ 
+        display:flex;
+        flex-direction: row;
+        align-content : center; gap: 2em;
+      }
+        /* align-items: center;align-content: center; padding: 100px 150px 150px 40px;} */
+    
+    
+    }
